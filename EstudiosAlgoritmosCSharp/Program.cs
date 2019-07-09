@@ -16,7 +16,21 @@ namespace EstudiosAlgoritmosCSharp
             Console.WriteLine(p.EsPalindromeRecursiva("dav ad"));
             Console.WriteLine(f.GetFactorial(5));
             Console.WriteLine(f.GetFactorialRecursivo(5));
+
+            #region Binary Tree
+            BinaryTree tree = new BinaryTree();
+            Node bt = null;
+
+            bt = tree.InsertNode(bt, 1);
+
+            Console.WriteLine("B(v):{0}", bt.value);
+            Console.WriteLine("B(l):{0}", bt.l);
+            Console.WriteLine("B(r):{0}", bt.r);
+            #endregion
+
+
             Console.ReadLine();
+
         }
     }
 }
